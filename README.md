@@ -24,3 +24,25 @@ The Cloud9 IDE team
 
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
 To watch some training videos, visit http://www.youtube.com/user/c9ide
+
+
+> This is a Ruby on Rails 5 application that allows users to create their own portfolios.
+
+### Features
+
+- Real time chat engine for comments
+- Blog 
+- Portfolio 
+- Drag and drop interface
+
+### Code Example
+
+```ruby
+def my_great_method
+    puts "here it is"
+    end
+    ```
+    
+```javascript
+alert("Hi there");
+```
