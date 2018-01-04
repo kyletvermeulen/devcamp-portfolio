@@ -40,8 +40,8 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 ```ruby
 def my_great_method
     puts "here it is"
-    end
-    ```
+end
+```
     
 ```javascript
 alert("Hi there");
