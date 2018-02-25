@@ -11,9 +11,9 @@ class Blog < ActiveRecord::Base
         all
     end
 
-  def self.special_blogs
+        def self.special_blogs
         all
-    end
+        end
     
 
 end
