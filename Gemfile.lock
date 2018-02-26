@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/kyletvermeulen/kyle_view_tool
+  revision: f35c8fa82ceb8c2aa8c03ba1a31fbe29c383790e
+  specs:
+    kyle_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -190,6 +196,7 @@ DEPENDENCIES
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  kyle_view_tool!
   pry-byebug
   rails (= 4.2.5)
   sass-rails (~> 5.0)

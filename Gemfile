@@ -51,4 +51,5 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 
 
 gem 'bootstrap', '~> 4.0.0'
+gem 'kyle_view_tool', git: 'https://github.com/kyletvermeulen/kyle_view_tool'
 

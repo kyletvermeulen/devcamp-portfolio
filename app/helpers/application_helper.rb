@@ -15,4 +15,10 @@ module ApplicationHelper
         content_tag(:p, greeting, class: "source-greeting")
      end 
    end
+   
+   def copyright_generator
+  KyleViewTool::Renderer.copyright "Kyle Vermeulen", "All rights reserved"
+  end
 end 
+
+
