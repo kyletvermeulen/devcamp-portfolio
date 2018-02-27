@@ -11,18 +11,29 @@
   <meta name="keywords" content="<%= @seo_keywords %>" />
 </head>
 <body>
- <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+            
+       <%= render "shared/application_nav" %>
        
-       <%= render "shared/nav", location: "top"  %>
-       
-<%= login_helper %>
+            <%= login_helper %>
+            
+            <%= yield %>
+            
+            
+            <p><%= copyright_generator %> </p>
+            
+            <%= source_helper("application") %>
+            
+        </div>
 
-<%= yield %>
+      </div>
 
+  </div>
 
-<p><%= copyright_generator %> </p>
-
-<%= source_helper("application") %>
 </body>
 </html>
