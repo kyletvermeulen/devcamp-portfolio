@@ -53,4 +53,6 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap', '~> 4.0.0'
 gem 'kyle_view_tool', '~> 0.1.0'
 gem 'petergate', '~> 1.8', '>= 1.8.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
