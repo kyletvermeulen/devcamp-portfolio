@@ -4,6 +4,7 @@ module PortfoliosHelper
     end
     
     def portfolio_img img, type
+
         if img.model.main_image? || img.model.thumb_image?
             img
         elsif type == "thumb"
@@ -13,6 +14,7 @@ module PortfoliosHelper
         end
       end    
   end
+
 
 
 
