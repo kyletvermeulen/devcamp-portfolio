@@ -14,8 +14,11 @@ class Blog < ActiveRecord::Base
     end
 
         def self.special_blogs
-        all
+        limit(2)
         end
-    
+
+    def self.recent
+   order("created_at DESC") 
+    end
 
 end
