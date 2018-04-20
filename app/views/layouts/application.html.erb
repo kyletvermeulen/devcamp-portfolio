@@ -4,11 +4,18 @@
        <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+    
   <title><%= @page_title %></title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => "reload" %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => "reload" %>
   <%= csrf_meta_tags %>
+  
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+  
   <meta name="keywords" content="<%= @seo_keywords %>" />
+  
+  <%= favicon_link_tag 'favicons/mountain.ico' %>
+  
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': "reload" %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': "reload" %>
 </head>
 <body>
 
@@ -35,8 +42,6 @@
             <%= render "shared/application_footer" %>
             
             <%= alerts %>
-            
-            <%= source_helper("application") %>
             
         </div>
       </div>
