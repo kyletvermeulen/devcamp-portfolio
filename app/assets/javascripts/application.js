@@ -19,4 +19,6 @@
 //= require gritter
 //= require cable
 //= require turbolinks
+//= require popper
+//= require popover_config
 //= require_tree .
