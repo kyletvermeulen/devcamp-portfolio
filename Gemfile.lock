@@ -295,7 +295,6 @@ DEPENDENCIES
   mini_magick (~> 4.8)
   petergate (~> 1.8, >= 1.8.1)
   pg
-  popper_js
   pry-byebug
   rails (~> 5.0.1)
   redcarpet (~> 3.4)
