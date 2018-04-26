@@ -11,6 +11,8 @@
 // about supported directives.
 //
 //= require jquery
+//= require popper
+//= require popover_config
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require jquery-ui
@@ -19,6 +21,4 @@
 //= require gritter
 //= require cable
 //= require turbolinks
-//= require popper
-//= require popover_config
 //= require_tree .
